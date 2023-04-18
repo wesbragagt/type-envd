@@ -1,4 +1,5 @@
 {
+  "version": "0.0.2",
   "name": "type-envd",
   "repository": {
     "type": "git",
@@ -12,10 +13,7 @@
     "ts-env"
   ],
   "author": "wesbragagt",
-  "version": "0.0.1",
   "license": "MIT",
-  "files": ["dist"],
-  "main": "./dist/index.js",
   "bin": {
     "type-envd": "dist/index.js"
   },
