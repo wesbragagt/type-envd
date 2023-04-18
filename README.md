@@ -1,6 +1,6 @@
 # Type Envd
 
-Create a typescript definition from your project's .env files. This tool will list recursively all .env files present, merge the variables available and generate a type definition in `src/generated.env.d.ts`
+Create a typescript definition from your project's .env files. By listing all .env files and merging the unique variable names available, generating a type definition in `src/generated.env.d.ts`
 
 ## Getting Started
 
