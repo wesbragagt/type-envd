@@ -1,10 +1,10 @@
 # Type Envd
 
-Create a typescript definition from your project's .env files. By listing all .env files and merging the unique variable names available, generating a type definition in `src/generated.env.d.ts`
+Create a typescript definition from your project's .env files. By listing all .env files and merging the unique variable names available, generating a type definition in `src/generated.env.d.ts`.
 
 ## Getting Started
 
-`npx type-envd`
+`npx type-envd <target output file or src/generated.env.d.ts by default>`
 
 or
 
@@ -12,7 +12,7 @@ or
 
 ## How?
 
-It will analyze your project wherever you execute the command below, gathering all .env related files, merging all the unique key variables and generating a src/generated.env.d.ts file
+From the directory where the command is executed, it will gather all .env related files, merging all the unique key variables and generating a src/generated.env.d.ts file
 
 Creating a file that looks like
 
