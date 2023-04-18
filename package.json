@@ -1,0 +1,32 @@
+{
+  "name": "type-envd",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesbragagt/type-envd.git"
+  },
+  "keywords": [
+    "typescript",
+    "env",
+    "environment",
+    "ts-definition",
+    "ts-env"
+  ],
+  "author": "wesbragagt",
+  "version": "0.0.1",
+  "license": "MIT",
+  "files": ["dist"],
+  "main": "./dist/index.js",
+  "bin": {
+    "type-envd": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts"
+  },
+  "dependencies": {
+    "recursive-readdir": "^2.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "tsup": "^6.7.0"
+  }
+}
