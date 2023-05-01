@@ -5,7 +5,7 @@ import path from 'path'
 //@ts-ignore
 import recursive from "recursive-readdir";
 
-const targetOutputDefinition = process.argv[2] || 'src/env.d.ts';
+const targetOutputDefinition = process.argv[2] || 'src/env.generated.d.ts';
 
 const gatherAllEnvFiles = async () => {
   const files = await recursive(process.cwd(), ['node_modules'])
